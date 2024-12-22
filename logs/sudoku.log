@@ -1,0 +1,91 @@
+{"level":"info","git_revision":"","go_version":"go1.23.1","difficulty":"Easy","board_id":"3117df7b-592e-40fa-bd9b-c1dc21dad1a8","time":"2024-12-21T16:30:06.8178943-03:00","message":"Generating board"}
+{"level":"info","git_revision":"","go_version":"go1.23.1","duration":"12.6513ms","board_id":"3117df7b-592e-40fa-bd9b-c1dc21dad1a8","time":"2024-12-21T16:30:06.8305456-03:00","message":"Generated board"}
+{"level":"info","git_revision":"","go_version":"go1.23.1","game_id":"3117df7b-592e-40fa-bd9b-c1dc21dad1a8","difficulty":"Easy","time":"2024-12-21T16:30:06.8305456-03:00","message":"game created"}
+{"level":"info","git_revision":"","go_version":"go1.23.1","game_id":"3117df7b-592e-40fa-bd9b-c1dc21dad1a8","time":"2024-12-21T16:30:06.8305456-03:00","message":"game saved in cache"}
+{"level":"info","git_revision":"","go_version":"go1.23.1","difficulty":"Master","board_id":"abf75b2c-781d-4e95-97b5-9c894aa53419","time":"2024-12-21T16:33:25.4372699-03:00","message":"Generating board"}
+{"level":"info","git_revision":"","go_version":"go1.23.1","duration":"11.2306ms","board_id":"abf75b2c-781d-4e95-97b5-9c894aa53419","time":"2024-12-21T16:33:25.4485005-03:00","message":"Generated board"}
+{"level":"info","git_revision":"","go_version":"go1.23.1","game_id":"abf75b2c-781d-4e95-97b5-9c894aa53419","difficulty":"Master","time":"2024-12-21T16:33:25.4485005-03:00","message":"game created"}
+{"level":"info","git_revision":"","go_version":"go1.23.1","game_id":"abf75b2c-781d-4e95-97b5-9c894aa53419","time":"2024-12-21T16:33:25.4485005-03:00","message":"game saved in cache"}
+{"level":"info","git_revision":"","go_version":"go1.23.1","game_id":"abf75b2c-781d-4e95-97b5-9c894aa53419","time":"2024-12-21T16:33:38.0433983-03:00","message":"game saved in cache"}
+{"level":"error","git_revision":"","go_version":"go1.23.1","game_id":"","error":"game not found","time":"2024-12-21T16:35:33.8918714-03:00","message":"failed to get game from cache"}
+{"level":"info","git_revision":"","go_version":"go1.23.1","difficulty":"Master","board_id":"a01013e1-4b68-49f1-9af6-dac5195504cf","time":"2024-12-21T16:36:48.1319816-03:00","message":"Generating board"}
+{"level":"info","git_revision":"","go_version":"go1.23.1","duration":"526.9µs","board_id":"a01013e1-4b68-49f1-9af6-dac5195504cf","time":"2024-12-21T16:36:48.1325085-03:00","message":"Generated board"}
+{"level":"info","git_revision":"","go_version":"go1.23.1","game_id":"a01013e1-4b68-49f1-9af6-dac5195504cf","difficulty":"Master","time":"2024-12-21T16:36:48.1325085-03:00","message":"game created"}
+{"level":"info","git_revision":"","go_version":"go1.23.1","game_id":"a01013e1-4b68-49f1-9af6-dac5195504cf","time":"2024-12-21T16:36:48.1325085-03:00","message":"game saved in cache"}
+{"level":"info","git_revision":"","go_version":"go1.23.1","game_id":"a01013e1-4b68-49f1-9af6-dac5195504cf","time":"2024-12-21T16:36:52.4402519-03:00","message":"game saved in cache"}
+{"level":"info","git_revision":"","go_version":"go1.23.1","difficulty":"Expert","board_id":"58013b02-764c-458b-a344-c0fe21b58ac6","time":"2024-12-21T16:40:00.6940262-03:00","message":"Generating board"}
+{"level":"info","git_revision":"","go_version":"go1.23.1","duration":"11.0844ms","board_id":"58013b02-764c-458b-a344-c0fe21b58ac6","time":"2024-12-21T16:40:00.7051106-03:00","message":"Generated board"}
+{"level":"info","git_revision":"","go_version":"go1.23.1","game_id":"58013b02-764c-458b-a344-c0fe21b58ac6","difficulty":"Expert","time":"2024-12-21T16:40:00.7051106-03:00","message":"game created"}
+{"level":"info","git_revision":"","go_version":"go1.23.1","game_id":"58013b02-764c-458b-a344-c0fe21b58ac6","time":"2024-12-21T16:40:00.7051106-03:00","message":"game saved in cache"}
+{"level":"info","git_revision":"","go_version":"go1.23.1","game_id":"58013b02-764c-458b-a344-c0fe21b58ac6","time":"2024-12-21T16:40:03.7959882-03:00","message":"game saved in cache"}
+{"level":"info","git_revision":"","go_version":"go1.23.1","difficulty":"Hard","board_id":"642b7b02-77d9-4f84-b7a9-a11b4fd8b18e","time":"2024-12-21T16:45:47.6582775-03:00","message":"Generating board"}
+{"level":"info","git_revision":"","go_version":"go1.23.1","duration":"11.5727ms","board_id":"642b7b02-77d9-4f84-b7a9-a11b4fd8b18e","time":"2024-12-21T16:45:47.6698502-03:00","message":"Generated board"}
+{"level":"info","git_revision":"","go_version":"go1.23.1","game_id":"642b7b02-77d9-4f84-b7a9-a11b4fd8b18e","difficulty":"Hard","time":"2024-12-21T16:45:47.6698502-03:00","message":"game created"}
+{"level":"info","git_revision":"","go_version":"go1.23.1","game_id":"642b7b02-77d9-4f84-b7a9-a11b4fd8b18e","time":"2024-12-21T16:45:47.6698502-03:00","message":"game saved in cache"}
+{"level":"error","git_revision":"","go_version":"go1.23.1","game_id":"642b7b02-77d9-4f84-b7a9-a11b4fd8b18e","row":0,"col":1,"value":3,"error":"move violates Sudoku rules","time":"2024-12-21T16:58:47.2316011-03:00","message":"failed to make move"}
+{"level":"info","git_revision":"","go_version":"go1.23.1","difficulty":"Hard","board_id":"abb10237-9fe4-4b78-9a93-547dd116e601","time":"2024-12-21T17:00:38.4369994-03:00","message":"Generating board"}
+{"level":"info","git_revision":"","go_version":"go1.23.1","duration":"11.5166ms","board_id":"abb10237-9fe4-4b78-9a93-547dd116e601","time":"2024-12-21T17:00:38.448516-03:00","message":"Generated board"}
+{"level":"info","git_revision":"","go_version":"go1.23.1","game_id":"abb10237-9fe4-4b78-9a93-547dd116e601","difficulty":"Hard","time":"2024-12-21T17:00:38.448516-03:00","message":"game created"}
+{"level":"info","git_revision":"","go_version":"go1.23.1","game_id":"abb10237-9fe4-4b78-9a93-547dd116e601","time":"2024-12-21T17:00:38.448516-03:00","message":"game saved in cache"}
+{"level":"info","git_revision":"","go_version":"go1.23.1","game_id":"abb10237-9fe4-4b78-9a93-547dd116e601","row":0,"col":1,"value":3,"time":"2024-12-21T17:00:44.4215084-03:00","message":"move successful"}
+{"level":"info","git_revision":"","go_version":"go1.23.1","game_id":"abb10237-9fe4-4b78-9a93-547dd116e601","time":"2024-12-21T17:00:44.4215084-03:00","message":"game saved in cache"}
+{"level":"info","git_revision":"","go_version":"go1.23.1","difficulty":"Easy","board_id":"4b2debc0-bc80-4a96-a43e-fb7def10c8e0","time":"2024-12-21T17:10:37.2770202-03:00","message":"Generating board"}
+{"level":"info","git_revision":"","go_version":"go1.23.1","duration":"10.9863ms","board_id":"4b2debc0-bc80-4a96-a43e-fb7def10c8e0","time":"2024-12-21T17:10:37.2880065-03:00","message":"Generated board"}
+{"level":"info","git_revision":"","go_version":"go1.23.1","game_id":"4b2debc0-bc80-4a96-a43e-fb7def10c8e0","difficulty":"Easy","time":"2024-12-21T17:10:37.2880065-03:00","message":"game created"}
+{"level":"info","git_revision":"","go_version":"go1.23.1","game_id":"4b2debc0-bc80-4a96-a43e-fb7def10c8e0","time":"2024-12-21T17:10:37.2880065-03:00","message":"game saved in cache"}
+{"level":"error","git_revision":"","go_version":"go1.23.1","game_id":"4b2debc0-bc80-4a96-a43e-fb7def10c8e0","row":1,"col":1,"value":3,"error":"move violates Sudoku rules","time":"2024-12-21T17:10:44.6961943-03:00","message":"failed to make move"}
+{"level":"info","git_revision":"","go_version":"go1.23.1","difficulty":"Hard","board_id":"eb738b12-51ba-4cc3-8115-031df4d3b8ca","time":"2024-12-21T17:11:19.511917-03:00","message":"Generating board"}
+{"level":"info","git_revision":"","go_version":"go1.23.1","duration":"11.5404ms","board_id":"eb738b12-51ba-4cc3-8115-031df4d3b8ca","time":"2024-12-21T17:11:19.5234574-03:00","message":"Generated board"}
+{"level":"info","git_revision":"","go_version":"go1.23.1","game_id":"eb738b12-51ba-4cc3-8115-031df4d3b8ca","difficulty":"Hard","time":"2024-12-21T17:11:19.5234574-03:00","message":"game created"}
+{"level":"info","git_revision":"","go_version":"go1.23.1","game_id":"eb738b12-51ba-4cc3-8115-031df4d3b8ca","time":"2024-12-21T17:11:19.5234574-03:00","message":"game saved in cache"}
+{"level":"info","git_revision":"","go_version":"go1.23.1","game_id":"eb738b12-51ba-4cc3-8115-031df4d3b8ca","row":0,"col":1,"value":3,"time":"2024-12-21T17:11:26.860381-03:00","message":"move successful"}
+{"level":"info","git_revision":"","go_version":"go1.23.1","game_id":"eb738b12-51ba-4cc3-8115-031df4d3b8ca","time":"2024-12-21T17:11:26.860381-03:00","message":"game saved in cache"}
+{"level":"info","git_revision":"","go_version":"go1.23.1","game_id":"eb738b12-51ba-4cc3-8115-031df4d3b8ca","row":0,"col":2,"value":7,"time":"2024-12-21T17:11:54.1093508-03:00","message":"move successful"}
+{"level":"info","git_revision":"","go_version":"go1.23.1","game_id":"eb738b12-51ba-4cc3-8115-031df4d3b8ca","time":"2024-12-21T17:11:54.1093508-03:00","message":"game saved in cache"}
+{"level":"error","git_revision":"","go_version":"go1.23.1","game_id":"","error":"game not found","time":"2024-12-21T17:29:30.2675596-03:00","message":"failed to get game from cache"}
+{"level":"info","git_revision":"","go_version":"go1.23.1","difficulty":"Easy","board_id":"c05080f5-2647-4e50-9fab-116e30830645","time":"2024-12-21T23:47:29.8791508-03:00","message":"Generating board"}
+{"level":"info","git_revision":"","go_version":"go1.23.1","duration":"12.1546ms","board_id":"c05080f5-2647-4e50-9fab-116e30830645","time":"2024-12-21T23:47:29.8913054-03:00","message":"Generated board"}
+{"level":"info","git_revision":"","go_version":"go1.23.1","game_id":"c05080f5-2647-4e50-9fab-116e30830645","difficulty":"Easy","time":"2024-12-21T23:47:29.8913054-03:00","message":"game created"}
+{"level":"info","git_revision":"","go_version":"go1.23.1","game_id":"c05080f5-2647-4e50-9fab-116e30830645","time":"2024-12-21T23:47:29.89181-03:00","message":"game saved in cache"}
+{"level":"info","git_revision":"","go_version":"go1.23.1","game_id":"c05080f5-2647-4e50-9fab-116e30830645","row":0,"col":0,"value":1,"time":"2024-12-21T23:47:51.2437246-03:00","message":"move successful"}
+{"level":"info","git_revision":"","go_version":"go1.23.1","game_id":"c05080f5-2647-4e50-9fab-116e30830645","time":"2024-12-21T23:47:51.2437246-03:00","message":"game saved in cache"}
+{"level":"info","git_revision":"","go_version":"go1.23.1","game_id":"c05080f5-2647-4e50-9fab-116e30830645","row":7,"col":7,"value":4,"time":"2024-12-21T23:48:10.245117-03:00","message":"move successful"}
+{"level":"info","git_revision":"","go_version":"go1.23.1","game_id":"c05080f5-2647-4e50-9fab-116e30830645","time":"2024-12-21T23:48:10.245117-03:00","message":"game saved in cache"}
+{"level":"info","git_revision":"","go_version":"go1.23.1","game_id":"c05080f5-2647-4e50-9fab-116e30830645","time":"2024-12-21T23:48:12.3838653-03:00","message":"Getting board history"}
+{"level":"info","git_revision":"","go_version":"go1.23.1","difficulty":"Easy","board_id":"2f88e5c2-fb1d-4a6f-a232-90892152831b","time":"2024-12-21T23:50:41.5524977-03:00","message":"Generating board"}
+{"level":"info","git_revision":"","go_version":"go1.23.1","duration":"12.8933ms","board_id":"2f88e5c2-fb1d-4a6f-a232-90892152831b","time":"2024-12-21T23:50:41.565391-03:00","message":"Generated board"}
+{"level":"info","git_revision":"","go_version":"go1.23.1","game_id":"2f88e5c2-fb1d-4a6f-a232-90892152831b","difficulty":"Easy","time":"2024-12-21T23:50:41.565391-03:00","message":"game created"}
+{"level":"info","git_revision":"","go_version":"go1.23.1","game_id":"2f88e5c2-fb1d-4a6f-a232-90892152831b","time":"2024-12-21T23:50:41.5659123-03:00","message":"game saved in cache"}
+{"level":"info","git_revision":"","go_version":"go1.23.1","game_id":"2f88e5c2-fb1d-4a6f-a232-90892152831b","row":0,"col":1,"value":2,"time":"2024-12-21T23:50:51.470061-03:00","message":"move successful"}
+{"level":"info","git_revision":"","go_version":"go1.23.1","game_id":"2f88e5c2-fb1d-4a6f-a232-90892152831b","time":"2024-12-21T23:50:51.470061-03:00","message":"game saved in cache"}
+{"level":"error","git_revision":"","go_version":"go1.23.1","game_id":"2f88e5c2-fb1d-4a6f-a232-90892152831b","row":3,"col":8,"value":2,"error":"move violates Sudoku rules","time":"2024-12-21T23:51:08.3237196-03:00","message":"failed to make move"}
+{"level":"info","git_revision":"","go_version":"go1.23.1","game_id":"2f88e5c2-fb1d-4a6f-a232-90892152831b","row":3,"col":8,"value":6,"time":"2024-12-21T23:51:24.1235279-03:00","message":"move successful"}
+{"level":"info","git_revision":"","go_version":"go1.23.1","game_id":"2f88e5c2-fb1d-4a6f-a232-90892152831b","time":"2024-12-21T23:51:24.1240599-03:00","message":"game saved in cache"}
+{"level":"info","git_revision":"","go_version":"go1.23.1","game_id":"2f88e5c2-fb1d-4a6f-a232-90892152831b","time":"2024-12-21T23:51:26.3399292-03:00","message":"Getting board history"}
+{"level":"info","git_revision":"","go_version":"go1.23.1","difficulty":"Easy","board_id":"3753fce9-eb0e-4162-b5d2-b2560c305671","time":"2024-12-21T23:55:23.7500824-03:00","message":"Generating board"}
+{"level":"info","git_revision":"","go_version":"go1.23.1","duration":"10.4255ms","board_id":"3753fce9-eb0e-4162-b5d2-b2560c305671","time":"2024-12-21T23:55:23.7605079-03:00","message":"Generated board"}
+{"level":"info","git_revision":"","go_version":"go1.23.1","game_id":"3753fce9-eb0e-4162-b5d2-b2560c305671","difficulty":"Easy","time":"2024-12-21T23:55:23.7605079-03:00","message":"game created"}
+{"level":"info","git_revision":"","go_version":"go1.23.1","game_id":"3753fce9-eb0e-4162-b5d2-b2560c305671","time":"2024-12-21T23:55:23.7605079-03:00","message":"game saved in cache"}
+{"level":"info","git_revision":"","go_version":"go1.23.1","game_id":"3753fce9-eb0e-4162-b5d2-b2560c305671","row":3,"col":6,"value":2,"time":"2024-12-21T23:55:42.036813-03:00","message":"move successful"}
+{"level":"info","git_revision":"","go_version":"go1.23.1","game_id":"3753fce9-eb0e-4162-b5d2-b2560c305671","time":"2024-12-21T23:55:42.036813-03:00","message":"game saved in cache"}
+{"level":"info","git_revision":"","go_version":"go1.23.1","game_id":"3753fce9-eb0e-4162-b5d2-b2560c305671","time":"2024-12-21T23:55:44.2725117-03:00","message":"Getting board history"}
+{"level":"info","git_revision":"","go_version":"go1.23.1","difficulty":"Easy","board_id":"dd496fbd-e16f-4a11-921c-0448e6553b7c","time":"2024-12-21T23:57:05.2397783-03:00","message":"Generating board"}
+{"level":"info","git_revision":"","go_version":"go1.23.1","duration":"11.1002ms","board_id":"dd496fbd-e16f-4a11-921c-0448e6553b7c","time":"2024-12-21T23:57:05.2508785-03:00","message":"Generated board"}
+{"level":"info","git_revision":"","go_version":"go1.23.1","game_id":"dd496fbd-e16f-4a11-921c-0448e6553b7c","difficulty":"Easy","time":"2024-12-21T23:57:05.2508785-03:00","message":"game created"}
+{"level":"info","git_revision":"","go_version":"go1.23.1","game_id":"dd496fbd-e16f-4a11-921c-0448e6553b7c","time":"2024-12-21T23:57:05.2509288-03:00","message":"game saved in cache"}
+{"level":"info","git_revision":"","go_version":"go1.23.1","game_id":"dd496fbd-e16f-4a11-921c-0448e6553b7c","row":0,"col":0,"value":1,"time":"2024-12-21T23:57:15.3656184-03:00","message":"move successful"}
+{"level":"info","git_revision":"","go_version":"go1.23.1","game_id":"dd496fbd-e16f-4a11-921c-0448e6553b7c","time":"2024-12-21T23:57:15.3656184-03:00","message":"game saved in cache"}
+{"level":"info","git_revision":"","go_version":"go1.23.1","game_id":"dd496fbd-e16f-4a11-921c-0448e6553b7c","time":"2024-12-21T23:57:18.139731-03:00","message":"Getting board history"}
+{"level":"info","git_revision":"","go_version":"go1.23.1","difficulty":"Easy","board_id":"ec37f058-59c7-4a68-9b01-d9c693f51124","time":"2024-12-22T00:10:18.9695175-03:00","message":"Generating board"}
+{"level":"info","git_revision":"","go_version":"go1.23.1","duration":"11.5533ms","board_id":"ec37f058-59c7-4a68-9b01-d9c693f51124","time":"2024-12-22T00:10:18.9810708-03:00","message":"Generated board"}
+{"level":"info","git_revision":"","go_version":"go1.23.1","game_id":"ec37f058-59c7-4a68-9b01-d9c693f51124","difficulty":"Easy","time":"2024-12-22T00:10:18.9810708-03:00","message":"game created"}
+{"level":"info","git_revision":"","go_version":"go1.23.1","game_id":"ec37f058-59c7-4a68-9b01-d9c693f51124","time":"2024-12-22T00:10:18.9810708-03:00","message":"game saved in cache"}
+{"level":"info","git_revision":"","go_version":"go1.23.1","game_id":"ec37f058-59c7-4a68-9b01-d9c693f51124","time":"2024-12-22T00:10:20.3915655-03:00","message":"Getting board history"}
+{"level":"info","git_revision":"","go_version":"go1.23.1","difficulty":"Easy","board_id":"0d773dff-dd97-46ca-b671-b80cede042fa","time":"2024-12-22T00:10:48.8368837-03:00","message":"Generating board"}
+{"level":"info","git_revision":"","go_version":"go1.23.1","duration":"13.3392ms","board_id":"0d773dff-dd97-46ca-b671-b80cede042fa","time":"2024-12-22T00:10:48.8502229-03:00","message":"Generated board"}
+{"level":"info","git_revision":"","go_version":"go1.23.1","game_id":"0d773dff-dd97-46ca-b671-b80cede042fa","difficulty":"Easy","time":"2024-12-22T00:10:48.8502229-03:00","message":"game created"}
+{"level":"info","git_revision":"","go_version":"go1.23.1","game_id":"0d773dff-dd97-46ca-b671-b80cede042fa","time":"2024-12-22T00:10:48.8502229-03:00","message":"game saved in cache"}
+{"level":"info","git_revision":"","go_version":"go1.23.1","game_id":"0d773dff-dd97-46ca-b671-b80cede042fa","time":"2024-12-22T00:10:50.7781668-03:00","message":"Getting board history"}
+{"level":"info","git_revision":"","go_version":"go1.23.1","game_id":"0d773dff-dd97-46ca-b671-b80cede042fa","row":0,"col":0,"value":1,"time":"2024-12-22T00:10:58.6806552-03:00","message":"move successful"}
+{"level":"info","git_revision":"","go_version":"go1.23.1","game_id":"0d773dff-dd97-46ca-b671-b80cede042fa","time":"2024-12-22T00:10:58.6806552-03:00","message":"game saved in cache"}
+{"level":"info","git_revision":"","go_version":"go1.23.1","game_id":"0d773dff-dd97-46ca-b671-b80cede042fa","time":"2024-12-22T00:11:00.3696876-03:00","message":"Getting board history"}
