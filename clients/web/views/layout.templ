@@ -1,0 +1,43 @@
+package views
+
+import (
+    "Sudoku-Solver/clients/web/views/components"
+)
+
+templ Layout(children ...templ.Component) {
+    <!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8"/>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+            <title>Sudoku</title>
+            <!-- tailwind css -->
+            <link href="./static/css/tailwind.css" rel="stylesheet"/>
+        </head>
+        <body class="max-w-screen dark:bg-gray-700 ">
+            <div class="flex flex-col min-h-screen">
+                @components.Header()
+
+                <div class="flex-grow flex-shrink">
+                    for _, child := range children {
+                        @child
+                    }
+                </div>
+
+
+                @components.Footer()
+            </div>
+
+            <script src="https://unpkg.com/htmx.org@1.9.10"></script>
+        </body>
+        <script>
+            // On page load or when changing themes, best to add inline in `head` to avoid FOUC
+            if (localStorage.getItem('color-theme') === 'dark' || (!('color-theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+                document.documentElement.classList.add('dark');
+            } else {
+                document.documentElement.classList.remove('dark')
+            }
+        </script>
+
+    </html>
+}

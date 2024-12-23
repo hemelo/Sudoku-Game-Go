@@ -1,8 +1,11 @@
 package main
 
 import (
+	"Sudoku-Solver/clients/web"
+	"Sudoku-Solver/internals"
 	"Sudoku-Solver/pkg/logger"
 	"flag"
+	"time"
 )
 
 var Log = logger.Get()
@@ -19,15 +22,23 @@ func main() {
 
 	// Initialize the cache and game manager
 
-	gameManager := NewGameManager()
-	gameController := NewGameController(gameManager)
+	gameManager := internals.NewGameManager()
+	gameController := internals.NewGameController(gameManager)
 
-	clientOpts := ClientCLIOpts{
-		gameController:    gameController,
-		gameManager:       gameManager,
-		defaultDifficulty: Easy,
+	client := internals.Client{
+		GameController:    gameController,
+		GameManager:       gameManager,
+		DefaultDifficulty: internals.Easy,
 	}
 
-	clientCLI := NewClientCLI(clientOpts)
-	clientCLI.StartClient()
+	webClientOpts := web.ClientWebOpts{
+		Host:    "localhost",
+		Port:    8080,
+		Timeout: 30 * time.Second,
+	}
+
+	clientWeb := web.NewClientWeb(client, webClientOpts)
+	clientWeb.StartClient()
+	//clientCLI := cli.NewClientCLI(client)
+	//clientCLI.StartClient()
 }

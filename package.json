@@ -1,0 +1,17 @@
+{
+  "name": "sudoku-solver",
+  "version": "1.0.0",
+  "description": "- **Game Initialization.** &nbsp; Allow the user to select difficulty (Easy, Medium, Hard) and generate a Sudoku board accordingly.\r - **User Input.** &nbsp; Enable users to add, remove, or edit numbers on the board.\r - **Hint System.** &nbsp; Provide hints for empty cells.\r - **Solve Option.** &nbsp; Display the complete solution to the Sudoku puzzle.\r - **Validation.** &nbsp; Ensure user inputs and board states adhere to Sudoku rules.\r - **Multiple Games.** &nbsp; Allow multiple games at once.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss build -o clients/web/static/css/tailwind.css --minify",
+    "dev": "tailwindcss build -o clients/web/static/css/tailwind.css",
+    "watch": "tailwindcss build -o clients/web/static/css/tailwind.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  }
+}

@@ -1,0 +1,37 @@
+package components
+
+import (
+    "Sudoku-Solver/internals"
+)
+
+var currentGame internals.Game
+
+templ Game() {
+    <div class="flex flex-row gap-12 my-24 w-max">
+        <div>
+            <div class="flex flex-row py-4 justify-between items-center min-h-8">
+                <span>
+                    { currentGame.ID }
+                </span>
+
+            </div>
+            @Sudoku(currentGame.Board)
+        </div>
+        <div class="w-max">
+            <div class="min-h-8">
+            </div>
+            <div class="flex flex-row gap-2 justify-start items-center w-max">
+                @Button(ButtonData{Color: "warning", Label: "Undo", Icon: UndoIcon(), LabelPosition: "right"})
+                @Button(ButtonData{Color: "warning", Label: "Remove", Icon: EraserIcon(), LabelPosition: "right"})
+                @Button(ButtonData{Color: "primary", Label: "Hint", Icon: SparkleIcon(), LabelPosition: "right"})
+                @Button(ButtonData{Color: "success", Label: "Solve", Icon: CheckIcon(), LabelPosition: "right"})
+                @Button(ButtonData{Color: "danger", Label: "Reset", Icon: RestartIcon(), LabelPosition: "right"})
+            </div>
+
+            <div class="mt-12">
+                @Numpad()
+            </div>
+        </div>
+    </div>
+
+}
