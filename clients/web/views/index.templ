@@ -1,0 +1,36 @@
+package views
+
+import (
+    "Sudoku-Solver/clients/web/views/components"
+)
+
+var cards = []components.TwoColumnsCardData{
+    {
+        Title: "About Sudoku",
+        Subtitle: "What the heck is Sudoku?",
+        Description: "The popular Japanese puzzle game Sudoku is based on the logical placement of numbers. An online game of logic, Sudoku doesn’t require any calculation nor special math skills; all that is needed are brains and concentration.",
+    },
+
+    {
+        Title: "Tips",
+        Subtitle: "How to win and quick solve?",
+        Description: `Sudoku is a fun puzzle game once you get the hang of it. At the same time, learning to play Sudoku can be a bit intimidating for beginners. So, if you are a complete beginner, here are a few Sudoku tips that you can use to improve your Sudoku skills. <ul class="space-y-1 mt-2 list-disc list-inside text-sm"><li>Look for rows, columns of 3×3 sections that contain 5 or more numbers. Work through the remaining empty cells, trying the numbers that have not been used. In many cases, you will find numbers that can only be placed in one position considering the other numbers that are already in its row, column, and 3×3 grid.</li><li>Break the grid up visually into 3 columns and 3 rows. Each large column will have 3, 3×3 grids and each row will have 3, 3×3 grids. Now, look for columns or grids that have 2 of the same number. Logically, there must be a 3rd copy of the same number in the only remaining 9-cell section. Look at each of the remaining 9 positions and see if you can find the location of the missing number.</li></ul>`,
+    },
+}
+
+templ Index() {
+
+    <div class="container mx-auto ">
+        @components.Game()
+    </div>
+
+    <div class="bg-gray-300 dark:bg-gray-800 py-8">
+        <div class="container mx-auto">
+            <div>
+                for _, card := range cards {
+                    @components.TwoColumnsCard(card)
+                }
+            </div>
+        </div>
+    </div>
+}

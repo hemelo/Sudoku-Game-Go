@@ -1,0 +1,19 @@
+package components
+
+import (
+    "strconv"
+)
+
+templ NumPadButton(value string) {
+    <button class="shadow border border-gray-300 bg-gray-300 dark:bg-gray-800 dark:border-gray-700 text-primary-500 flex items-center justify-center w-16 h-16 lg:w-20 lg:h-20 xl:w-24 xl:h-24 2xl:h-28 2xl:w-28 rounded-lg xl:rounded-xl text-center lg:text-xl xl:text-2xl font-semibold hover:bg-primary-500 dark:hover:bg-primary-700 hover:text-gray-300 transition-all">
+        { value }
+    </button>
+}
+
+templ Numpad() {
+    <div class="grid grid-cols-3 w-fit gap-2">
+        for i := 1; i <= 9; i++ {
+            @NumPadButton(strconv.Itoa(i))
+        }
+    </div>
+}

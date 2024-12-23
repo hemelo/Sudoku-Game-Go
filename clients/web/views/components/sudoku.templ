@@ -1,0 +1,22 @@
+package components
+
+import (
+    "Sudoku-Solver/internals"
+    "strconv"
+)
+
+templ SudokuSquare(data internals.Cell) {
+    <div class="border flex items-center justify-center w-8 h-8 lg:w-12 lg:h-12 xl:w-16 xl:h-16 text-center lg:text-xl xl:text-2xl font-semibold border-gray-300 bg-primary-300 odd:bg-opacity-85 dark:odd:bg-opacity-100 dark:odd:bg-primary-700 hover:bg-primary-400 dark:bg-primary-800 dark:hover:bg-primary-500 dark:border-gray-700 dark:text-gray-300">
+       { strconv.Itoa(data.Value) }
+    </div>
+}
+
+templ Sudoku(data internals.Board) {
+    <div class="grid grid-cols-9 gap-0.5 w-max">
+        for i := 0; i < 9; i++ {
+            for j := 0; j < 9; j++ {
+                @SudokuSquare(data[i][j])
+            }
+        }
+    </div>
+}

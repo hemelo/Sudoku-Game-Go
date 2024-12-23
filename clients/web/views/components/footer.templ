@@ -1,0 +1,43 @@
+package components
+
+import (
+    "time"
+    "strconv"
+)
+
+type FooterLinkData struct {
+    Title string
+    URL string
+}
+
+var currentYear = strconv.Itoa(time.Now().Year())
+
+var footerLinks = []FooterLinkData{
+    {
+        Title: "Home",
+        URL: "#",
+    },
+}
+
+templ FooterLink(footerLink FooterLinkData) {
+    <a href={templ.URL(footerLink.URL)} class="block py-2 px-3 text-gray-900 rounded md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500  dark:hover:text-white">
+        { footerLink.Title }
+    </a>
+}
+
+
+templ Footer() {
+
+<footer class="shadow bg-gray-400 dark:bg-gray-900">
+    <div class="w-full mx-auto container p-4 md:flex md:items-center md:justify-between">
+      <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© { currentYear } <a href="https://flowbite.com/" class="hover:underline">Hemelo</a>. All Rights Reserved.
+    </span>
+    <ul class="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
+        for _, link := range footerLinks {
+            @FooterLink(link)
+        }
+    </ul>
+    </div>
+</footer>
+
+}
