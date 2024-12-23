@@ -1,0 +1,4 @@
+/node_modules/
+*_templ.go
+/logs/
+/clients/web/static/css/tailwind.css
